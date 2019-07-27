@@ -20,7 +20,7 @@ In Face Verification, you're given two images and you have to tell if they are o
 
 Of course, this algorithm performs really poorly, since the pixel values change dramatically due to variations in lighting, orientation of the person's face, even minor changes in head position, and so on. 
 
-You'll see that rather than using the raw image, you can learn an encoding $f(img)$ so that element-wise comparisons of this encoding gives more accurate judgements as to whether two pictures are of the same person.
+You'll see that rather than using the raw image, you can learn an encoding f(img) so that element-wise comparisons of this encoding gives more accurate judgements as to whether two pictures are of the same person.
 
 ## FaceNet
 By using a 128-neuron fully connected layer as its last layer, the model ensures that the output is an encoding vector of size 128. I then use the encodings the compare two face images as follows:
