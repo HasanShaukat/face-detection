@@ -16,7 +16,7 @@ FaceNet learns a neural network that encodes a face image into a vector of 128 n
 In Face Verification, you're given two images and you have to tell if they are of the same person. The simplest way to do this is to compare the two images pixel-by-pixel. If the distance between the raw images are less than a chosen threshold, it may be the same person! 
 
 <img src="images/pixel_comparison.png" style="width:380px;height:150px;">
-<caption><center> <u> <font color='purple'> **Figure 1** </u></center></caption>
+<caption><center> <u> <font color='purple'> </u></center></caption>
 
 ## FaceNet
 By using a 128-neuron fully connected layer as its last layer, the model ensures that the output is an encoding vector of size 128. I then use the encodings the compare two face images as follows:
