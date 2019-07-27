@@ -22,7 +22,7 @@ In Face Verification, you're given two images and you have to tell if they are o
 By using a 128-neuron fully connected layer as its last layer, the model ensures that the output is an encoding vector of size 128. I then use the encodings the compare two face images as follows:
 
 <img src="images/distance_kiank.png" style="width:680px;height:250px;">
-<caption><center> <u> <font color='purple'> **Figure 2**: <br> </u> <font color='purple'> By computing a distance between two encodings and thresholding, I can determine if the two pictures represent the same person</center></caption>
+<caption><center> <u> <font color='purple'> <br> </u> <font color='purple'> By computing a distance between two encodings and thresholding, I can determine if the two pictures represent the same person</center></caption>
 
 So, an encoding is a good one if: 
 - The encodings of two images of the same person are quite similar to each other 
@@ -32,4 +32,4 @@ The triplet loss function formalizes this, and tries to "push" the encodings of 
 
 <img src="images/triplet_comparison.png" style="width:280px;height:150px;">
 <br>
-<caption><center> <u> <font color='purple'> <br> </u> <font color='purple'> In the next part, I will call the pictures from left to right: Anchor (A), Positive (P), Negative (N)  </center></caption>
+<caption><center> <u> <font color='purple'> <br> </u> <font color='purple'>  </center></caption>
